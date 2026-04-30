@@ -1,0 +1,33 @@
+{
+  "ecommerce": {
+    "validUser": {
+      "email": "testuser@example.com",
+      "password": "Test@123456"
+    },
+    "newUser": {
+      "name": "Automation Test User",
+      "email": "newtest_{{timestamp}}@example.com",
+      "password": "Test@123456"
+    },
+    "invalidInputs": {
+      "invalidEmail": "notanemail",
+      "emptyEmail": "",
+      "shortPassword": "123"
+    }
+  },
+  "glassdoor": {
+    "searchCriteria": {
+      "jobTitle": "QA",
+      "location": "India"
+    },
+    "salarySearch": {
+      "role": "QA Engineer",
+      "location": "Bangalore"
+    },
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Cognizant"
+    ]
+  }
+}

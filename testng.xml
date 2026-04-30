@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce and Job Discovery Testing Suite" verbose="2">
+
+    <!-- E-Commerce Tests -->
+    <test name="E-Commerce Product Discovery Tests">
+        <classes>
+            <class name="com.automation.tests.ecommerce.ProductAddToCartTest"/>
+        </classes>
+    </test>
+
+    <test name="E-Commerce Login Tests">
+        <classes>
+            <class name="com.automation.tests.ecommerce.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="E-Commerce Form Validation Tests">
+        <classes>
+            <class name="com.automation.tests.ecommerce.FormValidationTest"/>
+        </classes>
+    </test>
+
+</suite>
